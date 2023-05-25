@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43324F1E2A16AE05009DAA3F /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43324F1D2A16AE05009DAA3F /* OnBoardingView.swift */; };
+		43324F202A1A650C009DAA3F /* PersonalizedWayangQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43324F1F2A1A650C009DAA3F /* PersonalizedWayangQuizView.swift */; };
 		43768DC82A134C5C00E0C0C0 /* DalangApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43768DC72A134C5C00E0C0C0 /* DalangApp.swift */; };
 		43768DCA2A134C5C00E0C0C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43768DC92A134C5C00E0C0C0 /* ContentView.swift */; };
 		43768DCC2A134C5D00E0C0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43768DCB2A134C5D00E0C0C0 /* Assets.xcassets */; };
@@ -14,6 +16,11 @@
 		43768DD92A134C5D00E0C0C0 /* DalangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43768DD82A134C5D00E0C0C0 /* DalangTests.swift */; };
 		43768DE32A134C5D00E0C0C0 /* DalangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43768DE22A134C5D00E0C0C0 /* DalangUITests.swift */; };
 		43768DE52A134C5D00E0C0C0 /* DalangUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43768DE42A134C5D00E0C0C0 /* DalangUITestsLaunchTests.swift */; };
+		43830C2F2A1FA5B800FD1E5E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43830C2E2A1FA5B800FD1E5E /* AudioManager.swift */; };
+		43830C312A1FB42200FD1E5E /* mscInstrument.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43830C302A1FB42200FD1E5E /* mscInstrument.mp3 */; };
+		43830C332A1FBA4800FD1E5E /* EndGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43830C322A1FBA4800FD1E5E /* EndGameScene.swift */; };
+		438D2A392A1E59DE00FC3D17 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D2A382A1E59DE00FC3D17 /* GameScene.swift */; };
+		43BE1E942A134E9D003AFB25 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE1E932A134E9D003AFB25 /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43324F1D2A16AE05009DAA3F /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		43324F1F2A1A650C009DAA3F /* PersonalizedWayangQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizedWayangQuizView.swift; sourceTree = "<group>"; };
 		43768DC42A134C5C00E0C0C0 /* Dalang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dalang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43768DC72A134C5C00E0C0C0 /* DalangApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalangApp.swift; sourceTree = "<group>"; };
 		43768DC92A134C5C00E0C0C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,12 @@
 		43768DDE2A134C5D00E0C0C0 /* DalangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DalangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43768DE22A134C5D00E0C0C0 /* DalangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalangUITests.swift; sourceTree = "<group>"; };
 		43768DE42A134C5D00E0C0C0 /* DalangUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalangUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43768DF12A134C8700E0C0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		43830C2E2A1FA5B800FD1E5E /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		43830C302A1FB42200FD1E5E /* mscInstrument.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mscInstrument.mp3; sourceTree = "<group>"; };
+		43830C322A1FBA4800FD1E5E /* EndGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameScene.swift; sourceTree = "<group>"; };
+		438D2A382A1E59DE00FC3D17 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		43BE1E932A134E9D003AFB25 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +109,16 @@
 		43768DC62A134C5C00E0C0C0 /* Dalang */ = {
 			isa = PBXGroup;
 			children = (
+				43768DF12A134C8700E0C0C0 /* Info.plist */,
+				43BE1E932A134E9D003AFB25 /* SpeechRecognizer.swift */,
 				43768DC72A134C5C00E0C0C0 /* DalangApp.swift */,
+				43324F1F2A1A650C009DAA3F /* PersonalizedWayangQuizView.swift */,
+				438D2A382A1E59DE00FC3D17 /* GameScene.swift */,
+				43324F1D2A16AE05009DAA3F /* OnBoardingView.swift */,
+				43830C322A1FBA4800FD1E5E /* EndGameScene.swift */,
+				43830C2E2A1FA5B800FD1E5E /* AudioManager.swift */,
 				43768DC92A134C5C00E0C0C0 /* ContentView.swift */,
+				43830C302A1FB42200FD1E5E /* mscInstrument.mp3 */,
 				43768DCB2A134C5D00E0C0C0 /* Assets.xcassets */,
 				43768DCD2A134C5D00E0C0C0 /* Preview Content */,
 			);
@@ -232,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43768DCF2A134C5D00E0C0C0 /* Preview Assets.xcassets in Resources */,
+				43830C312A1FB42200FD1E5E /* mscInstrument.mp3 in Resources */,
 				43768DCC2A134C5D00E0C0C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +282,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				43768DCA2A134C5C00E0C0C0 /* ContentView.swift in Sources */,
+				43830C2F2A1FA5B800FD1E5E /* AudioManager.swift in Sources */,
+				438D2A392A1E59DE00FC3D17 /* GameScene.swift in Sources */,
+				43324F1E2A16AE05009DAA3F /* OnBoardingView.swift in Sources */,
+				43830C332A1FBA4800FD1E5E /* EndGameScene.swift in Sources */,
+				43324F202A1A650C009DAA3F /* PersonalizedWayangQuizView.swift in Sources */,
 				43768DC82A134C5C00E0C0C0 /* DalangApp.swift in Sources */,
+				43BE1E942A134E9D003AFB25 /* SpeechRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +450,14 @@
 				DEVELOPMENT_TEAM = 4CQ7M98XHC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dalang/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the story.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a transcription of your story.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +482,14 @@
 				DEVELOPMENT_TEAM = 4CQ7M98XHC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dalang/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the story.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a transcription of your story.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -6,21 +6,35 @@
 //
 
 import SwiftUI
+import SpriteKit
+import AVFoundation
+
 
 struct ContentView: View {
+    
+    var scene = GameScene()
+    
+
+    @State var screenWidth : CGFloat = UIScreen.main.bounds.width
+    @State var screenHeight : CGFloat = UIScreen.main.bounds.height
+        
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        NavigationStack {
+            
+            ZStack {
+                SpriteView(scene: scene)
+                    .ignoresSafeArea()
+                    
+            }
+            
+        }//Navigation Stack
+        .navigationBarBackButtonHidden(true)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewInterfaceOrientation(.landscapeLeft)
     }
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct DalangApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnBoardingView()
         }
     }
 }
